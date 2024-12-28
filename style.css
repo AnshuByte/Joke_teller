@@ -50,6 +50,16 @@ button:disabled {
   filter: brightness(30%);
 }
 
+#text {
+  padding: 20px;
+  margin: 20px;
+  font-size: 20px;
+  font-family: monospace;
+  color: white;
+  background: #ff2c7dae;
+  border-radius: 15px;
+  width: 50%;
+}
 /* for screen smaller than a tablet */
 @media screen and (max-width: 1000px) {
   .container {
