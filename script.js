@@ -1,7 +1,3 @@
-// import { API_KEY } from './config.js';
-
-
-
 const button = document.getElementById('button');
 const audioElement = document.getElementById('audio');
 
@@ -61,4 +57,4 @@ async function getJokes() {
 button.addEventListener('click', getJokes);
 audioElement.addEventListener('ended', toggleButton);
 
-// import { API_KEY } from './config.js';
+

@@ -1,4 +1,3 @@
-// import { API_KEY } from './config.js';
 
 
 
@@ -19,7 +18,7 @@ function toggleButton() {
 function tellMe(joke) {
     // console.log('tell me', joke);
     VoiceRSS.speech({
-        key: '<YOUR_API_KEY>',
+        key: 'b447633494a14fb9b7d3667c81fcd38b',
         src: joke,
         hl: 'en-us',
         v: 'Linda',
